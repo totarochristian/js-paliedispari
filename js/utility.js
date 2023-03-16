@@ -1,6 +1,6 @@
 
 function CheckPalidrome(){
-    let word = document.getElementById("word");
+    let word = document.getElementById("word").value;
     let result = '';
     if(!word)
         result = "Inserisci una parola valida!";
