@@ -26,6 +26,9 @@ function IsPalidrome(word){
     return true;
 }
 
+/**
+ * 
+ */
 function CheckEvenOdd(){
     let isEven = document.getElementById("evenOddSelect").value == "even";
     let num = parseInt(document.getElementById("number").value);
@@ -43,6 +46,11 @@ function CheckEvenOdd(){
         document.getElementById("numberGenerated").innerText = "Numero totale generato: " + numToCheck;
 }
 
+/**
+ * Function used to returns if the number passed is even or odd.
+ * @param {bigint} num Number to be checked
+ * @returns True if the number is even, false otherwise.
+ */
 function IsEven(num){
     return num % 2 == 0;
 }
