@@ -28,3 +28,4 @@ document.getElementById("wordSubmit").addEventListener("click",CheckPalidrome);
 document.getElementById("word").addEventListener("change",CheckPalidrome);
 
 // Event listeners for the "Even and odd" goal
+document.getElementById("evenOddSubmit").addEventListener("click",CheckEvenOdd);
