@@ -27,7 +27,7 @@ function IsPalidrome(word){
 }
 
 /**
- * 
+ * Function called by the submit of the evenOddSubmit button, that will define the result string of the evenOdd div using the IsEven function.
  */
 function CheckEvenOdd(){
     let isEven = document.getElementById("evenOddSelect").value == "even";
