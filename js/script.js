@@ -23,5 +23,8 @@ Tips of the day
 ---------------------------------------------------------------------------------------------------------------------------
 */
 
+// Event listeners for the "Palidrome" goal
 document.getElementById("wordSubmit").addEventListener("click",CheckPalidrome);
 document.getElementById("word").addEventListener("change",CheckPalidrome);
+
+// Event listeners for the "Even and odd" goal
