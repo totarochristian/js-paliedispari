@@ -38,7 +38,9 @@ function CheckEvenOdd(){
         result = "Hai vinto!";
     else
         result = "Hai perso!";
-        document.getElementById("evenOddResult").innerText = result;
+    document.getElementById("evenOddResult").innerText = result;
+    if(!isNaN(num))
+        document.getElementById("numberGenerated").innerText = "Numero totale generato: " + numToCheck;
 }
 
 function IsEven(num){
