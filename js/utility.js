@@ -9,7 +9,6 @@ function CheckPalidrome(){
     else
         result = "La parola inserita non è palindroma!";
     document.getElementById("palidromeResult").innerText = result;
-    console.log("fine");
 }
 
 function IsPalidrome(word){
