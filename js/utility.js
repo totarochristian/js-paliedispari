@@ -25,3 +25,8 @@ function IsPalidrome(word){
     }
     return true;
 }
+
+function CheckEvenOdd(){
+    let isEven = document.getElementById("evenOddSelect").value == "even";
+    
+}
