@@ -1,4 +1,6 @@
-
+/**
+ * Function called by the submit of the wordSubmit button, that will define the result string of the palidrome div using the IsPalidrome function.
+ */
 function CheckPalidrome(){
     let word = document.getElementById("word").value;
     let result = '';
