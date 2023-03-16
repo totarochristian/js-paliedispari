@@ -29,3 +29,5 @@ document.getElementById("word").addEventListener("change",CheckPalidrome);
 
 // Event listeners for the "Even and odd" goal
 document.getElementById("evenOddSubmit").addEventListener("click",CheckEvenOdd);
+document.getElementById("evenOddSelect").addEventListener("change",CheckEvenOdd);
+document.getElementById("number").addEventListener("change",CheckEvenOdd);
