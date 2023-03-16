@@ -24,3 +24,4 @@ Tips of the day
 */
 
 document.getElementById("wordSubmit").addEventListener("click",CheckPalidrome);
+document.getElementById("word").addEventListener("change",CheckPalidrome);
