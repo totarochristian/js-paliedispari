@@ -28,7 +28,7 @@ function IsPalidrome(word){
 
 function CheckEvenOdd(){
     let isEven = document.getElementById("evenOddSelect").value == "even";
-    
+    let num = parseInt(document.getElementById("number").value);
 }
 
 /**
