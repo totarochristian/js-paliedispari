@@ -11,6 +11,11 @@ function CheckPalidrome(){
     document.getElementById("palidromeResult").innerText = result;
 }
 
+/**
+ * Function used to check if a passed string is palidrome.
+ * @param {string} word Word to be checked.
+ * @returns Returns true if the word is palidrome, false otherwise.
+ */
 function IsPalidrome(word){
     for(let i=0; i<parseInt(word.length/2); i++){
         if(word[i] != word[word.length-1-i])
