@@ -29,6 +29,16 @@ function IsPalidrome(word){
 function CheckEvenOdd(){
     let isEven = document.getElementById("evenOddSelect").value == "even";
     let num = parseInt(document.getElementById("number").value);
+    let numToCheck = num + GetRandomInt(5,1);
+    let isEvenRes = isEven(numToCheck);
+    let result = '';
+    if(isNaN(num))
+        result = "Inserisci un numero valido!";
+    else if((isEven && isEvenRes) || (!isEven && !isEvenRes))
+        result = "Hai vinto!";
+    else
+        result = "Hai perso!";
+        document.getElementById("evenOddResult").innerText = result;
 }
 
 /**
